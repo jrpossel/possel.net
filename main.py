@@ -8,7 +8,7 @@ def index():
     	Welcome to possel.net! <a href="/getFile"> Click</a>
     	'''
 
-#@app.route("/getFile")
-#def getFile():
-#	return send_file
+@app.route("/resume")
+def getFile():
+	return send_file
 	
